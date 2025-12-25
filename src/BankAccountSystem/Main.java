@@ -26,12 +26,12 @@ public class Main {
         currentaccount.setenableOverdraft("Overdraft Enabled");
 
         System.out.println(savingsaccount.getownerName()+":"+savingsaccount.getacctype());
-        System.out.println( "Deposited:"+savingsaccount.getdepositAmt());
+        System.out.println("Deposited:"+savingsaccount.getdepositAmt());
         System.out.println("Balance:"+savingsaccount.getbalance());
         System.out.println(savingsaccount.getcreateFixedDeposit());
 
         System.out.println(currentaccount.getownerName()+":"+currentaccount.getacctype());
-        System.out.println( "Deposited:"+currentaccount.getdepositAmt());
+        System.out.println("Deposited:"+currentaccount.getdepositAmt());
         System.out.println("Balance:"+currentaccount.getbalance());
         System.out.println(currentaccount.getenableOverdraft());
 
