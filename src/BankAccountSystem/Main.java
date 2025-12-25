@@ -25,19 +25,15 @@ public class Main {
         currentaccount.setaccNo(654321);
         currentaccount.setenableOverdraft("Overdraft Enabled");
 
-        if (SAVINGS_TYPE.equals(savingsaccount.getacctype())){
-            System.out.println(savingsaccount.getownerName()+":"+savingsaccount.getacctype());
-            System.out.println( "Deposited:"+savingsaccount.getdepositAmt());
-            System.out.println("Balance:"+savingsaccount.getbalance());
-            System.out.println(savingsaccount.getcreateFixedDeposit());
-        }
-        if(CURRENT_TYPE.equals(currentaccount.getacctype())){
-            System.out.println(currentaccount.getownerName()+":"+currentaccount.getacctype());
-            System.out.println( "Deposited:"+currentaccount.getdepositAmt());
-            System.out.println("Balance:"+currentaccount.getbalance());
-            System.out.println(currentaccount.getenableOverdraft());
+        System.out.println(savingsaccount.getownerName()+":"+savingsaccount.getacctype());
+        System.out.println( "Deposited:"+savingsaccount.getdepositAmt());
+        System.out.println("Balance:"+savingsaccount.getbalance());
+        System.out.println(savingsaccount.getcreateFixedDeposit());
 
-        }
+        System.out.println(currentaccount.getownerName()+":"+currentaccount.getacctype());
+        System.out.println( "Deposited:"+currentaccount.getdepositAmt());
+        System.out.println("Balance:"+currentaccount.getbalance());
+        System.out.println(currentaccount.getenableOverdraft());
 
 
 
